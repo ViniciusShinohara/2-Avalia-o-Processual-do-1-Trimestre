@@ -1,4 +1,9 @@
+:root{
+--cor-principal:white;
+--cor-secudaria: black;
+--cor-terciaria:rgb(124, 231, 235);
 
+}
 *{
 margin: 0%;
 padding: 0%;
@@ -6,15 +11,15 @@ box-sizing: border-box;
 }
 
 body{
-background-color: white;
-color: black;
+background-color:var(--cor-principal);
+color:var:(var(--cor-secudaria));
 display: flex;
 }
 
 
 .cabecalho{
     height: 150px;
-    background-color:rgb(124, 231, 235);
+    background-color:var(--cor-terciaria);
     width:12770px;
 }
 
